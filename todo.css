@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* container style */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    flex-direction: column;
+}
+H1{
+    color: #999;
+    font-family: sans-serif;
+
+
+}
+.line{
+    width: 120px;
+    height: 5px;
+    background-color: red;
+    margin-top: -14px;
+}
+.inner{
+    color: blue;
+}
