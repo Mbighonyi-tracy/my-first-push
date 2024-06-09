@@ -49,3 +49,75 @@ H1{
     align-items: center;
 
 }
+.name{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+h2{
+    color: greenyellow;
+}
+
+p{
+    color: #999;
+    margin-bottom: -2rem;
+
+}
+.todos{
+    background-color: #333;
+    width: 350px;
+    height: 300px;
+    /* margin-left: 12px; */
+    margin:0 auto;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    
+}
+
+.item_box{
+    /* width: 330px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid green;
+}
+
+.items{
+    color: wheat;
+    font-size: 17px;
+
+}
+
+.icons{
+    display: flex;
+    gap:  10px;
+}
+.plus{
+    background-color: white;
+    color: goldenrod;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.input{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin: 23px;
+    padding: 12px;
+    gap: 19px;
+
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: #222;
+    width: 90%;
+    
+}
